@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dublador de Video falcatrua</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 align="center">Dublador</h1>
+    <span>Vídeo: </span>
+    <input type="file" id="video" accept="video/*">
+    <br>
+    <video src="" id="pv"  muted hidden></video>
+    <br>
+    <span>Som: </span>
+    <input type="file" id="audio" accept="audio/*" onchange="FileReader">
+    <br>
+    <audio src="" id="player" loop controls></audio>
+    <br>
+    <button id="reproduzir">Reproduzir</button>
+    <button id="pause">Pausar</button>
+    <br>
+    <button id="gravar">Gravar</button>
+    <br>
+    <script src="main.js"></script>
+</body>
+</html>
